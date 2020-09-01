@@ -1171,7 +1171,7 @@
 
   <!-- nodes -->
 
-<SEQUENCE NAME="%document/casesByState/casesReported%==0" TIMEOUT="" EXIT-ON="FAILURE">
+<SEQUENCE NAME="%document/casesByState/casesReported%>=5000" TIMEOUT="" EXIT-ON="FAILURE">
   <COMMENT></COMMENT>
 
   <!-- nodes -->
